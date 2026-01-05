@@ -47,3 +47,18 @@
     display: flex;
     justify-content: space-evenly
 }
+
+.me-images-container {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.me-images-container img {
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}

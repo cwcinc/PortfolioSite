@@ -2,6 +2,7 @@ import './App.css'
 import Navigation from './Navigation';
 import Skills from './Skills';
 import Projects from './Projects';
+import MeImages from './MeImages';
 
 // https://react-bootstrap.netlify.app/docs/components/
 
@@ -18,6 +19,7 @@ function App() {
           decisions directly impact thousands of users and create a meaningful impact.
         </p>
       </div>
+      <MeImages />
       <Skills />
       <Projects />
     </>
